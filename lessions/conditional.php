@@ -31,16 +31,16 @@
     </style>
   </head>
   <body>
-    <?php 
-     $name = "Dark Matter";
-     $read = true;
+    <?php
+    $name = "Dark Matter";
+    $read = true;
 
-  if (read) {
-    $message = "You have read $name.";
-  } else {
-    $message = "You haven't read $name.";
-  }
-  
+    if ($read) {
+        $message = "You have read $name.";
+    } else {
+        $message = "You haven't read $name.";
+    }
+
 
     ?>
     <h1>
