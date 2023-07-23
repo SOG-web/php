@@ -21,3 +21,5 @@ Or, if you don't want/need a background service you can just run:
 /usr/local/opt/mysql/bin/mysqld_safe --datadir=/usr/local/var/mysql
 
 mysql> create database myapp;
+
+### https://github.com/laracasts/PHP-For-Beginners-Series.git
